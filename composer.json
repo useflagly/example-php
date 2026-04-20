@@ -1,0 +1,14 @@
+{
+    "name": "example-php",
+    "description": "Exemplo de uso do SDK PHP do UseFlagly",
+    "require": {
+        "php": ">=8.1",
+        "useflagly/sdk-php": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleApp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
